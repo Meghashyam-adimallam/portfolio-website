@@ -7,40 +7,6 @@ body {
   scroll-behavior: smooth;
 }
 
-nav {
-  background-color: #111;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
-nav h1 {
-  margin: 0;
-  font-size: 1.5rem;
-}
-
-nav div a {
-  margin: 0 1rem;
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-a:hover {
-  color: #ff00ff;
-  transition: 0.3s ease;
-}
-
-section {
-  padding: 4rem 2rem;
-  text-align: center;
-}
-
 button {
   padding: 0.7rem 1.5rem;
   font-size: 1rem;
@@ -85,7 +51,7 @@ footer {
   margin-top: 3rem;
 }
 
-/* Hero section animations */
+/* Animation classes */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -102,5 +68,21 @@ footer {
 }
 
 .delay-200 {
+  animation-delay: 0.2s;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slideUp {
+  animation: slideUp 0.7s ease-out both;
   animation-delay: 0.2s;
 }

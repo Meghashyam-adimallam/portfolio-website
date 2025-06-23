@@ -5,15 +5,17 @@ import './App.css';
 function App() {
   return (
     <div>
-      <nav>
-        <h1>Megha Shyam</h1>
-        <div>
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
+      {/* Transparent Navbar */}
+      <nav className="fixed top-0 left-0 w-full z-50 backdrop-blur-lg bg-black/40 shadow-md transition-all px-6 py-4 flex justify-between items-center">
+        <h1 className="text-white font-bold text-lg">Megha Shyam</h1>
+        <div className="space-x-6">
+          <a href="#about" className="text-white hover:text-pink-400 transition">About</a>
+          <a href="#projects" className="text-white hover:text-pink-400 transition">Projects</a>
+          <a href="#contact" className="text-white hover:text-pink-400 transition">Contact</a>
         </div>
       </nav>
 
+      {/* Hero Section */}
       <section
         id="hero"
         className="min-h-screen flex flex-col justify-center items-center text-center px-4 bg-gradient-to-br from-[#1f0036] via-[#2b1b52] to-[#1a1a2e] text-white"
@@ -32,14 +34,16 @@ function App() {
         </button>
       </section>
 
-      <section id="about">
+      {/* About Section */}
+      <section id="about" className="animate-slideUp">
         <h2>About Me</h2>
         <p>
           I'm a passionate learner with interests in AI, Machine Learning, and Data Science. Currently building projects that solve real-world problems.
         </p>
       </section>
 
-      <section id="projects">
+      {/* Projects Section */}
+      <section id="projects" className="animate-slideUp">
         <h2>Projects</h2>
 
         <div className="project-card">
@@ -77,6 +81,7 @@ function App() {
         </div>
       </section>
 
+      {/* Contact Section */}
       <section id="contact">
         <h2>Contact</h2>
         <p>Email: meghashyamadimalla2003@gmail.com</p>
