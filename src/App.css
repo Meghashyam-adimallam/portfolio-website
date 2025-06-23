@@ -81,6 +81,18 @@ button:hover {
   box-shadow: 0 0 10px rgba(255, 0, 255, 0.2);
 }
 
+.project-card a {
+  color: #66b3ff;
+  font-weight: 500;
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 1rem;
+}
+
+.project-card a:hover {
+  color: #ff00ff;
+}
+
 footer {
   background-color: #111;
   color: white;

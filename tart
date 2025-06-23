@@ -1,0 +1,101 @@
+[33mcommit 31fb8c651b92d7c029d8e9f381b874b6e67c9ea2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Meghashyam Adimallam <meghashyamadimallam@gmail.com>
+Date:   Mon Jun 9 10:55:44 2025 -0500
+
+    Revert to working React + CSS version
+
+[33mcommit 94171bff30f89dc653f25160baffcb892ba0aaea[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Meghashyam Adimallam <meghashyamadimallam@gmail.com>
+Date:   Sun Jun 8 14:16:38 2025 -0500
+
+    Update dark pink black theme
+
+[33mcommit 0e71972920756850ba8da171aac8b56406cbc99a[m
+Author: Meghashyam Adimallam <meghashyamadimallam@gmail.com>
+Date:   Sun Jun 8 14:11:23 2025 -0500
+
+    Updated portfolio UI with new projects and styling
+
+[33mcommit f2efedc233277437662d443f977c2c780f4f64d5[m
+Author: Meghashyam Adimallam <meghashyamadimallam@gmail.com>
+Date:   Fri Jun 6 16:29:49 2025 -0500
+
+    UI/UX enhancements
+
+[33mcommit 068468f078accb51df4bc978668ad6f92b0f106e[m
+Author: Meghashyam Adimallam <meghashyamadimallam@gmail.com>
+Date:   Fri Jun 6 16:16:19 2025 -0500
+
+    Final resume fix and layout polish
+
+[33mcommit 6324465d411cf82a764f1ca592e6bd8e852f7d97[m
+Author: Meghashyam Adimallam <meghashyamadimallam@gmail.com>
+Date:   Fri Jun 6 16:10:21 2025 -0500
+
+    Final layout with resume download and smooth scroll
+
+[33mcommit 6e3ea37ea03aa74560c405437c6d73fed481bd1f[m
+Author: Meghashyam Adimallam <meghashyamadimallam@gmail.com>
+Date:   Fri Jun 6 15:59:51 2025 -0500
+
+    Update nav layout and enable direct resume view/download
+
+[33mcommit b617ccb07c8e86b57a6b2655b5d9e2f06203e226[m
+Author: Meghashyam Adimallam <meghashyamadimallam@gmail.com>
+Date:   Fri Jun 6 15:48:40 2025 -0500
+
+    Final portfolio with resume view/download
+
+[33mcommit f579f9bd538ed1fc64b4c2f4eb535b588af59c5b[m
+Author: Meghashyam Adimallam <meghashyamadimallam@gmail.com>
+Date:   Fri Jun 6 15:23:41 2025 -0500
+
+    Final updates with working resume link and layout
+
+[33mcommit fa9440e96c6cf1641c42acb3dcaddcac710b3294[m
+Author: Meghashyam Adimallam <meghashyamadimallam@gmail.com>
+Date:   Fri Jun 6 15:20:28 2025 -0500
+
+    Add Resume and Contact sections
+
+[33mcommit 00b1bdbfd21139b832e805b14b27d7b58124aa70[m
+Author: Meghashyam Adimallam <meghashyamadimallam@gmail.com>
+Date:   Fri Jun 6 15:12:41 2025 -0500
+
+    Added hero section and improved layout
+
+[33mcommit d2cbf787e696528a53f8d4de1f7f30e2f8c3a877[m
+Author: Meghashyam Adimallam <meghashyamadimallam@gmail.com>
+Date:   Fri Jun 6 15:09:56 2025 -0500
+
+    Final portfolio structure with sections and links
+
+[33mcommit cad544a80b9292a9b2d7b342aae67f82d8eea8eb[m
+Author: Meghashyam Adimallam <meghashyamadimallam@gmail.com>
+Date:   Fri Jun 6 07:42:55 2025 -0500
+
+    Updated layout with sections and hover effects
+
+[33mcommit 10b10c99eb93dfd84f6b18c18e88e800e2de67c1[m
+Author: Meghashyam Adimallam <meghashyamadimallam@gmail.com>
+Date:   Fri Jun 6 07:30:14 2025 -0500
+
+    Re-add App.css with hover and layout styles
+
+[33mcommit 462ef87d225349d2c2fdb677c2e38820c082ecc2[m
+Author: Meghashyam Adimallam <meghashyamadimallam@gmail.com>
+Date:   Fri Jun 6 07:05:38 2025 -0500
+
+    Final polished portfolio page
+
+[33mcommit 12a6495036bc87e915a61941b8bc23665ad8827e[m
+Author: Meghashyam Adimallam <meghashyamadimallam@gmail.com>
+Date:   Thu Jun 5 18:09:51 2025 -0500
+
+    Initial commit
+
+[33mcommit c4fd83ed2b731f0d50f73c1e4d9e82bfaed775bb[m
+Author: Meghashyam Adimallam <meghashyamadimallam@gmail.com>
+Date:   Thu Jun 5 17:40:41 2025 -0500
+
+    Initialize project using Create React App

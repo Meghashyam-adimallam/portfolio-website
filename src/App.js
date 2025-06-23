@@ -1,3 +1,4 @@
+// App.js
 import React from 'react';
 import './App.css';
 
@@ -26,6 +27,25 @@ function App() {
 
       <section id="projects">
         <h2>Projects</h2>
+
+        <div className="project-card">
+          <h3>Logistic Regression Classifier</h3>
+          <p>Built a binary classification model to predict customer purchase behavior using logistic regression with age and salary features. Feature scaled and class balanced.</p>
+          <a href="https://github.com/Meghashyam-adimallam/logistic-regression-model" target="_blank" rel="noreferrer">View Code</a>
+        </div>
+
+        <div className="project-card">
+          <h3>Image Classifier using CNN</h3>
+          <p>Trained a CNN on CIFAR-10 dataset using Keras. Implemented dropout and pooling layers to reduce overfitting and improve accuracy.</p>
+          <a href="https://github.com/Meghashyam-adimallam/cnn-image-classifier" target="_blank" rel="noreferrer">View Code</a>
+        </div>
+
+        <div className="project-card">
+          <h3>PDF Q&A Chatbot (GenAI)</h3>
+          <p>Built a GenAI chatbot using FAISS, LangChain, and a local LLM that answers user questions about uploaded research PDFs in real-time.</p>
+          <a href="https://github.com/Meghashyam-adimallam/genai-pdf-qa-chatbot" target="_blank" rel="noreferrer">View Code</a>
+          <a href="https://genai-pdf-bot.streamlit.app" target="_blank" rel="noreferrer">Live Demo</a>
+        </div>
 
         <div className="project-card">
           <h3>Credit Card Fraud Detection</h3>
