@@ -14,15 +14,29 @@ function App() {
         </div>
       </nav>
 
-      <section id="hero">
-        <h2>Hello, I'm Megha 👋</h2>
-        <p>Aspiring Data Scientist | AI & ML Enthusiast</p>
-        <button onClick={() => window.location.href = "#projects"}>View Projects</button>
+      <section
+        id="hero"
+        className="min-h-screen flex flex-col justify-center items-center text-center px-4 bg-gradient-to-br from-[#1f0036] via-[#2b1b52] to-[#1a1a2e] text-white"
+      >
+        <h1 className="text-4xl md:text-6xl font-bold mb-4 animate-fadeIn">
+          Hi, I'm Megha 👋
+        </h1>
+        <p className="text-lg md:text-xl max-w-xl animate-fadeIn delay-200">
+          A Data Science graduate student with a passion for Machine Learning, Deep Learning, and Generative AI. I build smart things that solve real problems.
+        </p>
+        <button
+          onClick={() => window.location.href = "#projects"}
+          className="mt-6 px-6 py-3 bg-pink-600 text-white font-semibold rounded-lg shadow-md hover:bg-pink-700 transition"
+        >
+          View Projects
+        </button>
       </section>
 
       <section id="about">
         <h2>About Me</h2>
-        <p>I'm a passionate learner with interests in AI, Machine Learning, and Data Science. Currently building projects that solve real-world problems.</p>
+        <p>
+          I'm a passionate learner with interests in AI, Machine Learning, and Data Science. Currently building projects that solve real-world problems.
+        </p>
       </section>
 
       <section id="projects">
@@ -61,7 +75,6 @@ function App() {
           <h3>Portfolio Website</h3>
           <p>This very portfolio is a React-based website with modern styling and sections for projects, resume, and contact.</p>
         </div>
-
       </section>
 
       <section id="contact">

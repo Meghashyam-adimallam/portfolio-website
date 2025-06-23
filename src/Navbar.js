@@ -1,6 +1,5 @@
 // src/Navbar.js
 import React, { useEffect, useState } from "react";
-import "./Navbar.css";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -14,12 +13,24 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav className={`navbar ${scrolled ? "navbar-scrolled" : ""}`}>
-      <div className="navbar-logo">Megha</div>
-      <ul className="navbar-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+    <nav
+      className={`fixed top-0 w-full z-50 px-6 py-4 flex justify-between items-center transition-all duration-300 ${
+        scrolled
+          ? "bg-black shadow-md backdrop-blur-md"
+          : "bg-transparent"
+      }`}
+    >
+      <div className="text-xl font-bold text-white">Megha</div>
+      <ul className="flex space-x-6 text-white font-medium">
+        <li>
+          <a href="#about" className="hover:text-pink-400 transition">About</a>
+        </li>
+        <li>
+          <a href="#projects" className="hover:text-pink-400 transition">Projects</a>
+        </li>
+        <li>
+          <a href="#contact" className="hover:text-pink-400 transition">Contact</a>
+        </li>
       </ul>
     </nav>
   );
